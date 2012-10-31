@@ -28,6 +28,9 @@ Add this upstream Wordpress repo
     git pull -s recursive -X theirs upstream master
     # note that the git pull above can be used later to pull updates to Wordpress
     
+(optional: to migrate from another site, upload exported sql data file into '~/app-root/data/wordpress.sql',
+upload image files into '~/app-root/data/uploads/'.)
+
 Then push the repo upstream
 
     git push
